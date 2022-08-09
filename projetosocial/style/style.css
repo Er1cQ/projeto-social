@@ -28,7 +28,7 @@ body{
 
     top: 50%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-45%,-45%);
 }
 #home{
     position: relative;
@@ -36,5 +36,19 @@ body{
     left: 0px;
     height: 375px;
     width: 250px;
+}
+
+#mídias img{
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#mídias img:hover{
+    border: 1px solid white;
+    box-sizing: border-box;
+    transform: translate(5px,-5px);
+    transition: transform .3s;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.466); ;
 }
 
