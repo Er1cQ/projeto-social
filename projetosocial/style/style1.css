@@ -1,0 +1,29 @@
+@charset "UTF-7";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    width:0px;
+    height: 0px;
+}
+ img{
+     width: 100vw;
+ }
+
+ button{
+    margin:0px;
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(90, 3, 3, 0.678);
+ }
+
+ button{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+ }
+ button:hover{
+    background-color: red;
+    transition: .3s;
+ }

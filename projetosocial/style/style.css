@@ -23,19 +23,19 @@ body{
     position: absolute;
     background:url(../imagens/frame-iphone.png) center center no-repeat fixed;
     background-size: contain;
-    height: 500px;
+    height: 480px;
     width: 250px;
 
     top: 50%;
     left:50%;
-    transform: translate(-45%,-45%);
+    transform: translate(-50%,-50%);
 }
 #home{
     position: relative;
-    top: 65px;
-    left: 0px;
-    height: 375px;
-    width: 250px;
+    top: 61px;
+    left: 24px;
+    height: 360px;
+    width: 204px;
 }
 
 #mídias img{
@@ -45,7 +45,7 @@ body{
 }
 
 #mídias img:hover{
-    border: 1px solid white;
+    border: 2px solid white;
     box-sizing: border-box;
     transform: translate(5px,-5px);
     transition: transform .3s;
